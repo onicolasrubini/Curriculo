@@ -1,18 +1,20 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../imagens/my.jpg") no-repeat;
 }
 h2 {
     color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 3px 3px blue; /* css adicional */
-
+    text-shadow: 3px 3px blue;
+    text-align: center;
 }
 p {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    text-align: center;
 }
 nav {
     text-align: center;
@@ -22,5 +24,8 @@ nav {
     background-color: rgba(127, 0, 211, 0.315);
 }
 footer {
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80%; /* css adicional */
+    text-align: center;
 }
