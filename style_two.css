@@ -2,7 +2,7 @@
 
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url("../imagens/my.jpg") no-repeat;
+    url("../imagens/my.jpg");
 }
 h2 {
     color: whitesmoke;
